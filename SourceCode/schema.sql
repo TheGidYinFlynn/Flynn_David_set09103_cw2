@@ -14,9 +14,9 @@ pWord text
 
 CREATE TABLE Besaid_Data(
 User text,
-Dingo text,
-Condor text,
-Water_Flan text
+Dingo int,
+Condor int,
+Water_Flan int
 );
 
 CREATE TABLE Kilika_Data(
