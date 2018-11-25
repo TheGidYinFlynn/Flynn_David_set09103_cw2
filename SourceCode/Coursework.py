@@ -200,6 +200,10 @@ def update_Besaid(task):
 	db.execute(sql,task)
 	db.commit()
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('Error.html'), 404
+
 
 def update_Killika(task):
 
