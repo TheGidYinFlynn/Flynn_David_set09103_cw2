@@ -4,6 +4,9 @@ DROP TABLE if EXISTS Besaid_Data;
 
 DROP TABLE if EXISTS Kilika_Data;
 
+DROP TABLE if EXISTS Mihen_Data;
+
+
 CREATE TABLE Accounts(
 uName text,
 pWord text
@@ -11,9 +14,9 @@ pWord text
 
 CREATE TABLE Besaid_Data(
 User text,
-Dingo int,
-Condor int,
-Water_Flan int
+Dingo text,
+Condor text,
+Water_Flan text
 );
 
 CREATE TABLE Kilika_Data(
